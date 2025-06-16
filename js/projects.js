@@ -1,6 +1,6 @@
 const main = document.querySelector("main");
 
-fetch("https://api.github.com/users/Ryanohmm/repos")
+fetch("https://api.github.com/users/Ryanohmm/repos/resume.git")
   .then(res => res.json())
   .then(repos => {
     repos.forEach(repo => {
